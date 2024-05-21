@@ -13,5 +13,20 @@ Email: csm6hg@virginia.edu
 #### cnv_analysis:
 Contains the scripts used for classifying structural variants (SVs) across NGS data.
 
+- **Smoove**: 
+  - Smoove used to call SVs across short-read dataset.
+
 #### DeNovoAssembly:
 Contains associated scripts for *de novo* assembly of PacBio HiFi reads, scaffolding, and dotplot creation.
+
+- **HiCanu**: 
+  - *De novo* assembly software.
+
+- **LongStitch**:
+  - Scaffolding of contigs software.
+
+- **BUSCO**:
+  - Benchmark universal single-copy orthologous (BUSCO) genes to assess genome completeness.
+
+- **Dotplot_DGenies**:
+  - DGenies used to compare sequences with *DMel6* genome.

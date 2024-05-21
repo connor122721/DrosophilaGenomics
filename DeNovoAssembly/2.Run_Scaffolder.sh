@@ -22,7 +22,7 @@ module load apptainer
 echo "Starting LongStitch"
 date
 
-# Run HiCanu
+# Run Longstitch
 apptainer run /home/csm6hg/sifs/longstitch_latest.sif \
 longstitch run \
 draft=dros.contigs \
